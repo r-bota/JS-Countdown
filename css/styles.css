@@ -1,0 +1,100 @@
+body {
+  background-color: #241e2e;
+  background-image: url(../bg-stars.svg);
+  z-index: 1;
+  text-transform: uppercase;
+  font-family: "Red Hat Text", sans-serif;
+  width: 100vw;
+  font-weight: 700;
+}
+
+.banner {
+  margin-top: 200px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.6rem;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: url(../pattern-hills.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25%;
+  z-index: 20;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+i {
+  color: #8486a9;
+  font-size: 2.5rem;
+  transition: 0.15s ease-in-out;
+}
+i:hover {
+  color: #fb6087;
+}
+
+.counter {
+  margin: auto;
+  width: 400px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 100;
+}
+
+.timers {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  text-align: center;
+  z-index: 100;
+}
+
+.timer {
+  box-shadow: 0px 5px 1px #191a24;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fb6087;
+  font-size: 3.5rem;
+  background: linear-gradient(to bottom, #343650 50%, #444664 50%);
+  margin-bottom: 5px;
+  width: 70px;
+}
+
+.labels {
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+  color: #8486a9;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.7rem;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
+
+.label {
+  width: 80px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .banner {
+    font-size: 0.5rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
